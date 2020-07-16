@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\bgrasher.REDMOND\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\bgrasher.REDMOND\\.nuget\\packages"
+    ]
+  }
+}
