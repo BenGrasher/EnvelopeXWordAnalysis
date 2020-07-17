@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.IO.Enumeration;
 using System.Runtime.CompilerServices;
 
 namespace wordAnalysis
@@ -8,6 +9,7 @@ namespace wordAnalysis
     class Program
     {
         static Sentence sentenceToDecode = new Sentence();
+        public static string fileName = @".\IgnoreNumberAndFirstWord.txt";
 
         static void Main(string[] args)
         {
@@ -19,9 +21,13 @@ namespace wordAnalysis
 
             sentenceToDecode.TestAllPatterns();
 
-            foreach(string sentence in sentenceToDecode.decodedSentences)
+            using (StreamWriter sw = new StreamWriter(fileName))
             {
-                Console.WriteLine(sentence);
+                foreach (string sentence in sentenceToDecode.decodedSentences)
+                {
+                    Console.WriteLine(sentence);
+                    sw.WriteLine(sentence);
+                }
             }
         }
 
@@ -37,11 +43,11 @@ namespace wordAnalysis
         /// </summary>
         public static void SetupSentenceToBeDecoded()
         {
-            sentenceToDecode.AddWord(new Word("ABCD"));
+            sentenceToDecode.AddWord(new Word("ABCD", true));
             sentenceToDecode.AddWord(new Word("ECFFGH"));
             sentenceToDecode.AddWord(new Word("IJKB"));
             sentenceToDecode.AddWord(new Word("LK"));
-            sentenceToDecode.AddWord(new Word("PM")); // <== the likely number.
+            sentenceToDecode.AddWord(new Word("PM", true)); // <== the likely number.
             sentenceToDecode.AddWord(new Word("JLCNC"));
             sentenceToDecode.AddWord(new Word("JGO"));
         }

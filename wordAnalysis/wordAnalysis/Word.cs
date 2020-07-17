@@ -13,10 +13,12 @@ namespace wordAnalysis
     {
         string _encodedWord = string.Empty;
         public List<Word> wordsThatMatchThisPattern;
-        
-        public Word(string encodedWord)
+        public bool ignored;
+
+        public Word(string encodedWord, bool ignored = false)
         {
             this._encodedWord = encodedWord;
+            this.ignored = ignored;
         }
 
         public string GetWord()

@@ -1,4 +1,5 @@
 ﻿AD
+AH
 AM
 AN
 AS
@@ -8,12 +9,14 @@ BE
 BY
 DO
 GO
+HA
 HE
 HI
 IF
 IN
 IS
 IT
+MA
 ME
 MY
 NO
@@ -21,7 +24,10 @@ OF
 OH
 ON
 OR
+OW
 SO
+UH
+UM
 UP
 US
 WE

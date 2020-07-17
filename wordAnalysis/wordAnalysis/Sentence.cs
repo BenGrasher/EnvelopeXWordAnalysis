@@ -19,6 +19,8 @@ namespace wordAnalysis
         // Progress trackers.
         int firstLevelStarted = 0;
         int firstLevelFinished = 0;
+        int rootLevel = 0;
+        int progressTotal = 0;
 
         public Sentence()
         {
@@ -53,6 +55,8 @@ namespace wordAnalysis
         /// </summary>
         public void TestAllPatterns()
         {
+            this.rootLevel = this._sentence.FindIndex(w => w.ignored == false);
+            this.progressTotal = this._sentence[this.rootLevel].wordsThatMatchThisPattern.Count;
             this.RecursivelyTestAllEncodings(0, this.encoding);
         }
 
@@ -69,12 +73,22 @@ namespace wordAnalysis
             }
             else
             {
-                List<Encoding> encodingsThatMightWork = this._sentence[level].EncodingsThatMatch(testEncoding);
-                
+                List<Encoding> encodingsThatMightWork = new List<Encoding>();
+
+                if (this._sentence[level].ignored)
+                {
+                    // just pass this encoding down to the next level.
+                    encodingsThatMightWork.Add(testEncoding);
+                }
+                else
+                {
+                   encodingsThatMightWork = this._sentence[level].EncodingsThatMatch(testEncoding);
+                }
+
                 // If we are on the root/first level.  This code doesn't really do anything different than what we do below, but it does:
                 // 1) Limit the parallelization of this recursion.
                 // 2) Allow us to "track progress".  (though not all words are created equal)
-                if(level == 0)
+                if(level == this.rootLevel)
                 {
                     Parallel.ForEach(encodingsThatMightWork, e =>
                     {
