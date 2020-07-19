@@ -21,7 +21,7 @@ namespace wordAnalysis
 
         // Would be nice if this was relative, my "." efforts did not work.
         // Switching "RealWords" to "Words" swaps between the culled (realwords) dictionary and the full (words) dictionary.
-        public static string rootPath = @"C:\Users\bgrasher.REDMOND\source\repos\wordAnalysis\wordAnalysis\RealWords\";
+        public static string rootPath = @"C:\Users\bgrasher.REDMOND\source\repos\wa2\EnvelopeXWordAnalysis\wordAnalysis\wordAnalysis\RealWords\";
 
         public static void Initialize()
         {

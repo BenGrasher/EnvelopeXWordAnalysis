@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bgrasher.REDMOND\\source\\repos\\wordAnalysis\\wordAnalysis\\wordAnalysis.csproj": {}
+    "C:\\Users\\bgrasher.REDMOND\\source\\repos\\wa2\\EnvelopeXWordAnalysis\\wordAnalysis\\wordAnalysis\\wordAnalysis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bgrasher.REDMOND\\source\\repos\\wordAnalysis\\wordAnalysis\\wordAnalysis.csproj": {
+    "C:\\Users\\bgrasher.REDMOND\\source\\repos\\wa2\\EnvelopeXWordAnalysis\\wordAnalysis\\wordAnalysis\\wordAnalysis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bgrasher.REDMOND\\source\\repos\\wordAnalysis\\wordAnalysis\\wordAnalysis.csproj",
+        "projectUniqueName": "C:\\Users\\bgrasher.REDMOND\\source\\repos\\wa2\\EnvelopeXWordAnalysis\\wordAnalysis\\wordAnalysis\\wordAnalysis.csproj",
         "projectName": "wordAnalysis",
-        "projectPath": "C:\\Users\\bgrasher.REDMOND\\source\\repos\\wordAnalysis\\wordAnalysis\\wordAnalysis.csproj",
+        "projectPath": "C:\\Users\\bgrasher.REDMOND\\source\\repos\\wa2\\EnvelopeXWordAnalysis\\wordAnalysis\\wordAnalysis\\wordAnalysis.csproj",
         "packagesPath": "C:\\Users\\bgrasher.REDMOND\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bgrasher.REDMOND\\source\\repos\\wordAnalysis\\wordAnalysis\\obj\\",
+        "outputPath": "C:\\Users\\bgrasher.REDMOND\\source\\repos\\wa2\\EnvelopeXWordAnalysis\\wordAnalysis\\wordAnalysis\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bgrasher.REDMOND\\AppData\\Roaming\\NuGet\\NuGet.Config",

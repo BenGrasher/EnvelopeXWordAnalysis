@@ -11,3 +11,16 @@ C:\Users\bgrasher.REDMOND\source\repos\wordAnalysis\wordAnalysis\obj\Debug\netco
 C:\Users\bgrasher.REDMOND\source\repos\wordAnalysis\wordAnalysis\obj\Debug\netcoreapp3.1\wordAnalysis.dll
 C:\Users\bgrasher.REDMOND\source\repos\wordAnalysis\wordAnalysis\obj\Debug\netcoreapp3.1\wordAnalysis.pdb
 C:\Users\bgrasher.REDMOND\source\repos\wordAnalysis\wordAnalysis\obj\Debug\netcoreapp3.1\wordAnalysis.genruntimeconfig.cache
+C:\Users\bgrasher.REDMOND\source\repos\wa2\EnvelopeXWordAnalysis\wordAnalysis\wordAnalysis\bin\Debug\netcoreapp3.1\wordAnalysis.exe
+C:\Users\bgrasher.REDMOND\source\repos\wa2\EnvelopeXWordAnalysis\wordAnalysis\wordAnalysis\bin\Debug\netcoreapp3.1\wordAnalysis.deps.json
+C:\Users\bgrasher.REDMOND\source\repos\wa2\EnvelopeXWordAnalysis\wordAnalysis\wordAnalysis\bin\Debug\netcoreapp3.1\wordAnalysis.runtimeconfig.json
+C:\Users\bgrasher.REDMOND\source\repos\wa2\EnvelopeXWordAnalysis\wordAnalysis\wordAnalysis\bin\Debug\netcoreapp3.1\wordAnalysis.runtimeconfig.dev.json
+C:\Users\bgrasher.REDMOND\source\repos\wa2\EnvelopeXWordAnalysis\wordAnalysis\wordAnalysis\bin\Debug\netcoreapp3.1\wordAnalysis.dll
+C:\Users\bgrasher.REDMOND\source\repos\wa2\EnvelopeXWordAnalysis\wordAnalysis\wordAnalysis\bin\Debug\netcoreapp3.1\wordAnalysis.pdb
+C:\Users\bgrasher.REDMOND\source\repos\wa2\EnvelopeXWordAnalysis\wordAnalysis\wordAnalysis\obj\Debug\netcoreapp3.1\wordAnalysis.csprojAssemblyReference.cache
+C:\Users\bgrasher.REDMOND\source\repos\wa2\EnvelopeXWordAnalysis\wordAnalysis\wordAnalysis\obj\Debug\netcoreapp3.1\wordAnalysis.AssemblyInfoInputs.cache
+C:\Users\bgrasher.REDMOND\source\repos\wa2\EnvelopeXWordAnalysis\wordAnalysis\wordAnalysis\obj\Debug\netcoreapp3.1\wordAnalysis.AssemblyInfo.cs
+C:\Users\bgrasher.REDMOND\source\repos\wa2\EnvelopeXWordAnalysis\wordAnalysis\wordAnalysis\obj\Debug\netcoreapp3.1\wordAnalysis.csproj.CoreCompileInputs.cache
+C:\Users\bgrasher.REDMOND\source\repos\wa2\EnvelopeXWordAnalysis\wordAnalysis\wordAnalysis\obj\Debug\netcoreapp3.1\wordAnalysis.dll
+C:\Users\bgrasher.REDMOND\source\repos\wa2\EnvelopeXWordAnalysis\wordAnalysis\wordAnalysis\obj\Debug\netcoreapp3.1\wordAnalysis.pdb
+C:\Users\bgrasher.REDMOND\source\repos\wa2\EnvelopeXWordAnalysis\wordAnalysis\wordAnalysis\obj\Debug\netcoreapp3.1\wordAnalysis.genruntimeconfig.cache

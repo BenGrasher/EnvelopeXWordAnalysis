@@ -9,7 +9,7 @@ namespace wordAnalysis
     class Program
     {
         static Sentence sentenceToDecode = new Sentence();
-        public static string fileName = @".\IgnoreNumberAndFirstWord.txt";
+        public static string fileName = @".\IgnoreNumberAndSeventhWord.txt";
 
         static void Main(string[] args)
         {
@@ -43,13 +43,13 @@ namespace wordAnalysis
         /// </summary>
         public static void SetupSentenceToBeDecoded()
         {
-            sentenceToDecode.AddWord(new Word("ABCD", true));
+            sentenceToDecode.AddWord(new Word("ABCD"));
             sentenceToDecode.AddWord(new Word("ECFFGH"));
             sentenceToDecode.AddWord(new Word("IJKB"));
             sentenceToDecode.AddWord(new Word("LK"));
             sentenceToDecode.AddWord(new Word("PM", true)); // <== the likely number.
             sentenceToDecode.AddWord(new Word("JLCNC"));
-            sentenceToDecode.AddWord(new Word("JGO"));
+            sentenceToDecode.AddWord(new Word("JGO",true));
         }
     }
 }

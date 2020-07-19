@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YFQ8s9MuakYJhau2zNIUD/1vRgEyNBpAOhO+X+/yHLb12eKNGICleRT1mzu/1ycPw3UHdGhWcfvs/Q9lH+AzzA==",
+  "dgSpecHash": "ARyJVwMIXQjqYocz00HMcLOTfyCD7QGktFthG8nGXKSYieXyFg3nWWPZSeJtqsmH8HYOc78k4JH3qklV0QVfQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bgrasher.REDMOND\\source\\repos\\wordAnalysis\\wordAnalysis\\wordAnalysis.csproj",
+  "projectFilePath": "C:\\Users\\bgrasher.REDMOND\\source\\repos\\wa2\\EnvelopeXWordAnalysis\\wordAnalysis\\wordAnalysis\\wordAnalysis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bgrasher.REDMOND\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
