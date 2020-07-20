@@ -90,8 +90,10 @@ namespace wordAnalysis
                 // 2) Allow us to "track progress".  (though not all words are created equal)
                 if(level == this.rootLevel)
                 {
-                    Parallel.ForEach(encodingsThatMightWork, e =>
-                    {
+                    Parallel.ForEach(encodingsThatMightWork,
+                        new ParallelOptions { MaxDegreeOfParallelism = 8 },
+                        e =>
+                    { 
                         this.firstLevelStarted += 1;
                         this.RecursivelyTestAllEncodings(nextLevel, e);
                         this.firstLevelFinished += 1;
